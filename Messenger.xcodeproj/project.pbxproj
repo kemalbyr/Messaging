@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4B6A305B1F292F1400973661 /* NickNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A305A1F292F1400973661 /* NickNameVC.swift */; };
-		4B6A305D1F2935D700973661 /* ChatTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A305C1F2935D700973661 /* ChatTVC.swift */; };
 		4B6A30681F293E5800973661 /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A30651F293E5800973661 /* Messages.swift */; };
 		4B6A30691F293E5800973661 /* MessageServiceResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A30661F293E5800973661 /* MessageServiceResponseModel.swift */; };
 		4B6A306A1F293E5800973661 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6A30671F293E5800973661 /* User.swift */; };
@@ -16,14 +15,14 @@
 		4B9863B71F292A0600C2ED00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9863B51F292A0600C2ED00 /* Main.storyboard */; };
 		4B9863B91F292A0600C2ED00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B9863B81F292A0600C2ED00 /* Assets.xcassets */; };
 		4B9863BC1F292A0600C2ED00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B9863BA1F292A0600C2ED00 /* LaunchScreen.storyboard */; };
-		4BD5CFDE1F29480100A73D2A /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD5CFDD1F29480100A73D2A /* MessageTableViewCell.swift */; };
+		4B98F06D1F2A7012003B1FB2 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98F06C1F2A7012003B1FB2 /* ChatVC.swift */; };
+		4B98F06F1F2A85E7003B1FB2 /* MessageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B98F06E1F2A85E7003B1FB2 /* MessageCollectionViewCell.swift */; };
 		92F32A2752E0956A45983747 /* Pods_Messenger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0AE4740481EC502C02F8D6A /* Pods_Messenger.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1E580EB504CEB6D115339318 /* Pods-Messenger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Messenger/Pods-Messenger.debug.xcconfig"; sourceTree = "<group>"; };
 		4B6A305A1F292F1400973661 /* NickNameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NickNameVC.swift; path = ViewControllers/NickNameVC.swift; sourceTree = "<group>"; };
-		4B6A305C1F2935D700973661 /* ChatTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatTVC.swift; path = ViewControllers/ChatTVC.swift; sourceTree = "<group>"; };
 		4B6A30651F293E5800973661 /* Messages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
 		4B6A30661F293E5800973661 /* MessageServiceResponseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageServiceResponseModel.swift; sourceTree = "<group>"; };
 		4B6A30671F293E5800973661 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -33,7 +32,8 @@
 		4B9863B81F292A0600C2ED00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B9863BB1F292A0600C2ED00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B9863BD1F292A0600C2ED00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4BD5CFDD1F29480100A73D2A /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTableViewCell.swift; path = ViewControllers/MessageTableViewCell.swift; sourceTree = "<group>"; };
+		4B98F06C1F2A7012003B1FB2 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatVC.swift; path = ViewControllers/ChatVC.swift; sourceTree = "<group>"; };
+		4B98F06E1F2A85E7003B1FB2 /* MessageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageCollectionViewCell.swift; path = ViewControllers/MessageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B0AE4740481EC502C02F8D6A /* Pods_Messenger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Messenger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39FC8AA19586B2ECF98A379 /* Pods-Messenger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Messenger.release.xcconfig"; path = "Pods/Target Support Files/Pods-Messenger/Pods-Messenger.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,8 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				4B6A305A1F292F1400973661 /* NickNameVC.swift */,
-				4BD5CFDD1F29480100A73D2A /* MessageTableViewCell.swift */,
-				4B6A305C1F2935D700973661 /* ChatTVC.swift */,
+				4B98F06C1F2A7012003B1FB2 /* ChatVC.swift */,
+				4B98F06E1F2A85E7003B1FB2 /* MessageCollectionViewCell.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -250,11 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BD5CFDE1F29480100A73D2A /* MessageTableViewCell.swift in Sources */,
+				4B98F06F1F2A85E7003B1FB2 /* MessageCollectionViewCell.swift in Sources */,
+				4B98F06D1F2A7012003B1FB2 /* ChatVC.swift in Sources */,
 				4B6A305B1F292F1400973661 /* NickNameVC.swift in Sources */,
 				4B6A30681F293E5800973661 /* Messages.swift in Sources */,
 				4B6A306A1F293E5800973661 /* User.swift in Sources */,
-				4B6A305D1F2935D700973661 /* ChatTVC.swift in Sources */,
 				4B6A30691F293E5800973661 /* MessageServiceResponseModel.swift in Sources */,
 				4B9863B21F292A0600C2ED00 /* AppDelegate.swift in Sources */,
 			);
